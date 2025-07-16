@@ -20,4 +20,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/
+    - assets/images/intro_bg.jpg
+    - assets/images/uber_logo.png
