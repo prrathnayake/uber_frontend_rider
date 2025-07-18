@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screens/get_mobile.dart';
+import 'screens/get_otp_screen.dart';
 import 'screens/intro_screen.dart';
 import 'screens/login_screen.dart';
 import 'screens/signup_screen.dart';
@@ -57,6 +58,7 @@ class UberApp extends StatelessWidget {
         '/login': (context) => const LoginScreen(),
         '/signup': (context) => SignUpScreen(),
         '/main': (context) => const MainNavigation(),
+        '/get_otp': (context) => const GetOtpScreen(),
       },
     );
   }

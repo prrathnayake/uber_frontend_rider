@@ -24,6 +24,7 @@ class _GetMobileScreenState extends State<GetMobileScreen> {
     final fullNumber = '$_selectedCountryCode $number';
     print("Phone: $fullNumber");
 
+    Navigator.pushReplacementNamed(context, '/get_otp');
     // Proceed with OTP or next screen logic here
   }
 
